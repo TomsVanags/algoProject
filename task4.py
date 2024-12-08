@@ -55,7 +55,7 @@ print("Node-to-color mapping:", coloring)
 node_color = [coloring[node] for node in G.nodes()]
 
 # Define a color palette with a sufficient number of colors
-color_palette = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'cyan', 'magenta']  # Added more colors
+color_palette = ['red', 'blue', 'green', 'yellow']  # Added more colors
 
 # Ensure the palette size is enough for the number of colors used
 color_palette = color_palette[:num_colors]  # Trim the palette if necessary
