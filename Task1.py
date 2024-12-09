@@ -71,7 +71,7 @@ nx.draw_networkx_edge_labels(mst, pos, edge_labels=edge_labels, font_color="red"
 plt.title("Quantum Minimum Spanning Tree (QMST)")
 plt.show()
 
-
+# Total Weight of the Minimum Spanning Tree: 2179
 # Iterating through the CSV file and adding edges is O(n)
 # Kruskals algorithm takes O(nlogn)
 # use graph theory to optimize and analyze a communication network
