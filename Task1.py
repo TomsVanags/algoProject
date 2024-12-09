@@ -76,3 +76,16 @@ plt.show()
 # Kruskals algorithm takes O(nlogn)
 # use graph theory to optimize and analyze a communication network
 # Achieve efficient communication across the galactic network with minimal resource usage.
+
+"""Output: Edges in the Minimum Spanning Tree:
+Earth -> Arcturus with weight 78
+Earth -> Mars with weight 131
+Earth -> Vega with weight 154
+Earth -> ProximaCentauri with weight 206
+Earth -> Sirius with weight 322
+Mars -> Betelgeuse with weight 138
+Mars -> Europa with weight 215
+Ganymede -> Europa with weight 102
+AlphaCentauri -> ProximaCentauri with weight 172
+Vega -> Polaris with weight 324
+Arcturus -> Andromeda with weight 337"""
