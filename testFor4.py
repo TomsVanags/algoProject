@@ -1,5 +1,5 @@
-import networkx as nx #for displaying the results
-import csv #for reading th .csv file
+import networkx as nx
+import csv
 import matplotlib.pyplot as plt
 
 # Function to perform Welsh-Powell algorithm for graph coloring
@@ -55,7 +55,7 @@ print("Node-to-color mapping:", coloring)
 node_color = [coloring[node] for node in G.nodes()]
 
 # Define a color palette with a sufficient number of colors
-color_palette = ['red', 'blue', 'green', 'yellow']  # Added more colors
+color_palette = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'cyan', 'magenta', 'pink', 'brown']  # More colors
 
 # Ensure the palette size is enough for the number of colors used
 color_palette = color_palette[:num_colors]  # Trim the palette if necessary
@@ -63,8 +63,15 @@ color_palette = color_palette[:num_colors]  # Trim the palette if necessary
 # Map the colors based on the assigned color indices
 node_color = [color_palette[color] for color in node_color]
 
-# Draw the graph with customized colors
-nx.draw(G, with_labels=True, node_color=node_color, node_size=500, font_size=10)
+# Use a layout to make the graph look more structured
+pos = nx.spring_layout(G, seed=42)  # Using spring layout for better visualization
+
+# Adjusting figure size
+plt.figure(figsize=(12, 12))  # Increase figure size for clarity
+
+# Draw the graph with customized colors and options
+nx.draw(G, pos, with_labels=True, node_color=node_color, node_size=800, font_size=12, font_weight='bold', edge_color='gray', width=2)
 
 # Display the graph
+plt.title('Graph Visualization with Welsh-Powell Coloring', fontsize=16)
 plt.show()
