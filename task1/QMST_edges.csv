@@ -1,0 +1,12 @@
+source,destination,weight
+Mars,Sirius,62
+Arcturus,Earth,78
+Ganymede,Europa,102
+Earth,Mars,131
+Mars,Betelgeuse,138
+Vega,Earth,154
+Earth,AlphaCentauri,163
+ProximaCentauri,AlphaCentauri,172
+Mars,Europa,215
+Polaris,Vega,324
+Andromeda,Arcturus,337

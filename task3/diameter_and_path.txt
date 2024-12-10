@@ -1,0 +1,3 @@
+Diameter: 2537642.6 light years
+Path of the longest shortest path (Diameter Path):
+Betelgeuse -> Sirius -> Earth -> Andromeda
