@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-12-10">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="highlight" type="boolean" />
+    </attributes>
+    <nodes>
+      <node id="Earth" label="Earth" />
+      <node id="Mars" label="Mars" />
+      <node id="Ganymede" label="Ganymede" />
+      <node id="Europa" label="Europa" />
+      <node id="AlphaCentauri" label="AlphaCentauri" />
+      <node id="Betelgeuse" label="Betelgeuse" />
+      <node id="Sirius" label="Sirius" />
+      <node id="ProximaCentauri" label="ProximaCentauri" />
+      <node id="Vega" label="Vega" />
+      <node id="Polaris" label="Polaris" />
+      <node id="Arcturus" label="Arcturus" />
+      <node id="Andromeda" label="Andromeda" />
+    </nodes>
+    <edges>
+      <edge source="Earth" target="Mars" id="0" weight="1.6e-05">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Ganymede" id="1" weight="1.7e-05">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Europa" id="2" weight="1.6e-05">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="AlphaCentauri" id="3" weight="4.24">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Betelgeuse" id="4" weight="642.5">
+        <attvalues>
+          <attvalue for="0" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Sirius" id="5" weight="8.6">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="ProximaCentauri" id="6" weight="4.24">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Vega" id="7" weight="25.05">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Polaris" id="8" weight="323.62">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Arcturus" id="9" weight="36.66">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Earth" target="Andromeda" id="10" weight="2537000.0">
+        <attvalues>
+          <attvalue for="0" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="Mars" target="AlphaCentauri" id="11" weight="4.24">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Mars" target="Betelgeuse" id="12" weight="642.5">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Mars" target="Sirius" id="13" weight="8.6">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Mars" target="Europa" id="14" weight="1.6e-05">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Ganymede" target="Europa" id="15" weight="1e-09">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="AlphaCentauri" target="ProximaCentauri" id="16" weight="0.00022">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Betelgeuse" target="Sirius" id="17" weight="634.0">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Vega" target="Polaris" id="18" weight="298.57">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="Arcturus" target="Andromeda" id="19" weight="2536963.34">
+        <attvalues>
+          <attvalue for="0" value="false" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
